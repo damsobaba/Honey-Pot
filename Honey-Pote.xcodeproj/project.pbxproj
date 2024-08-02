@@ -11,6 +11,10 @@
 		CECDA2A42C5CDED8000584B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDA2A32C5CDED8000584B2 /* ContentView.swift */; };
 		CECDA2A62C5CDEDA000584B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECDA2A52C5CDEDA000584B2 /* Assets.xcassets */; };
 		CECDA2AA2C5CDEDA000584B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECDA2A92C5CDEDA000584B2 /* Preview Assets.xcassets */; };
+		CECDA2B22C5CE860000584B2 /* TabBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDA2B12C5CE860000584B2 /* TabBottomView.swift */; };
+		CECDA2B42C5CE87B000584B2 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDA2B32C5CE87B000584B2 /* CustomTabView.swift */; };
+		CECDA2B62C5CE8A9000584B2 /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDA2B52C5CE8A9000584B2 /* TabItemView.swift */; };
+		CECDA2B82C5CE8D7000584B2 /* TabItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDA2B72C5CE8D7000584B2 /* TabItemData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		CECDA2A52C5CDEDA000584B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECDA2A72C5CDEDA000584B2 /* Honey_Pote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Honey_Pote.entitlements; sourceTree = "<group>"; };
 		CECDA2A92C5CDEDA000584B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CECDA2B12C5CE860000584B2 /* TabBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBottomView.swift; sourceTree = "<group>"; };
+		CECDA2B32C5CE87B000584B2 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		CECDA2B52C5CE8A9000584B2 /* TabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemView.swift; sourceTree = "<group>"; };
+		CECDA2B72C5CE8D7000584B2 /* TabItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			children = (
 				CECDA2A12C5CDED8000584B2 /* Honey_PoteApp.swift */,
 				CECDA2A32C5CDED8000584B2 /* ContentView.swift */,
+				CECDA2B92C5CE8EB000584B2 /* TabBar */,
 				CECDA2A52C5CDEDA000584B2 /* Assets.xcassets */,
 				CECDA2A72C5CDEDA000584B2 /* Honey_Pote.entitlements */,
 				CECDA2A82C5CDEDA000584B2 /* Preview Content */,
@@ -67,6 +76,17 @@
 				CECDA2A92C5CDEDA000584B2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CECDA2B92C5CE8EB000584B2 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CECDA2B12C5CE860000584B2 /* TabBottomView.swift */,
+				CECDA2B32C5CE87B000584B2 /* CustomTabView.swift */,
+				CECDA2B52C5CE8A9000584B2 /* TabItemView.swift */,
+				CECDA2B72C5CE8D7000584B2 /* TabItemData.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECDA2B82C5CE8D7000584B2 /* TabItemData.swift in Sources */,
 				CECDA2A42C5CDED8000584B2 /* ContentView.swift in Sources */,
+				CECDA2B22C5CE860000584B2 /* TabBottomView.swift in Sources */,
 				CECDA2A22C5CDED8000584B2 /* Honey_PoteApp.swift in Sources */,
+				CECDA2B62C5CE8A9000584B2 /* TabItemView.swift in Sources */,
+				CECDA2B42C5CE87B000584B2 /* CustomTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
