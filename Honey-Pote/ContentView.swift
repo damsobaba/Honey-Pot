@@ -7,6 +7,7 @@
 
 import SwiftUI
 import MapKit
+import AVFoundation
 
 struct ContentView: View {
 
@@ -36,31 +37,5 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-    }
-}
-
-struct MapView: View {
-    @State private var region = MKCoordinateRegion(
-        center: CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194),
-        span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
-    )
-
-    var body: some View {
-        Map(coordinateRegion: $region)
-            .edgesIgnoringSafeArea(.all)
-    }
-}
-
-struct SettingsView: View {
-    var body: some View {
-        Text("Réglages")
-            .font(.largeTitle)
-    }
-}
-
-struct RewardsView: View {
-    var body: some View {
-        Text("Récompenses")
-            .font(.largeTitle)
     }
 }

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE44B64E2C63829F000418FB /* MagicHintSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE44B64D2C63829F000418FB /* MagicHintSound.mp3 */; };
+		CE44B6502C63A0A6000418FB /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44B64F2C63A0A5000418FB /* AudioManager.swift */; };
+		CE44B6522C63A11B000418FB /* AnimatedIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44B6512C63A11B000418FB /* AnimatedIcon.swift */; };
+		CE44B6552C63A221000418FB /* Indication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44B6542C63A221000418FB /* Indication.swift */; };
+		CE44B6572C63A578000418FB /* IndicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44B6562C63A578000418FB /* IndicationView.swift */; };
+		CE44B65A2C63A5B5000418FB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44B6592C63A5B5000418FB /* MapView.swift */; };
+		CE44B65C2C63A5FA000418FB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44B65B2C63A5FA000418FB /* SettingsView.swift */; };
+		CE44B65E2C63A63B000418FB /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44B65D2C63A63B000418FB /* RewardsView.swift */; };
 		CECDA2A22C5CDED8000584B2 /* Honey_PoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDA2A12C5CDED8000584B2 /* Honey_PoteApp.swift */; };
 		CECDA2A42C5CDED8000584B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDA2A32C5CDED8000584B2 /* ContentView.swift */; };
 		CECDA2A62C5CDEDA000584B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECDA2A52C5CDEDA000584B2 /* Assets.xcassets */; };
@@ -18,6 +26,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE44B64D2C63829F000418FB /* MagicHintSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MagicHintSound.mp3; sourceTree = "<group>"; };
+		CE44B64F2C63A0A5000418FB /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		CE44B6512C63A11B000418FB /* AnimatedIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedIcon.swift; sourceTree = "<group>"; };
+		CE44B6542C63A221000418FB /* Indication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indication.swift; sourceTree = "<group>"; };
+		CE44B6562C63A578000418FB /* IndicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicationView.swift; sourceTree = "<group>"; };
+		CE44B6592C63A5B5000418FB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CE44B65B2C63A5FA000418FB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CE44B65D2C63A63B000418FB /* RewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsView.swift; sourceTree = "<group>"; };
 		CECDA29E2C5CDED8000584B2 /* Honey-Pote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Honey-Pote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECDA2A12C5CDED8000584B2 /* Honey_PoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Honey_PoteApp.swift; sourceTree = "<group>"; };
 		CECDA2A32C5CDED8000584B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +57,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE44B6532C63A1F5000418FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE44B6542C63A221000418FB /* Indication.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE44B6582C63A581000418FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE44B6562C63A578000418FB /* IndicationView.swift */,
+				CE44B6592C63A5B5000418FB /* MapView.swift */,
+				CE44B65B2C63A5FA000418FB /* SettingsView.swift */,
+				CE44B65D2C63A63B000418FB /* RewardsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE44B65F2C63A696000418FB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CE44B6512C63A11B000418FB /* AnimatedIcon.swift */,
+				CECDA2B92C5CE8EB000584B2 /* TabBar */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CE44B6602C63A6B2000418FB /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				CE44B64D2C63829F000418FB /* MagicHintSound.mp3 */,
+				CE44B64F2C63A0A5000418FB /* AudioManager.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
 		CECDA2952C5CDED8000584B2 = {
 			isa = PBXGroup;
 			children = (
@@ -62,7 +115,10 @@
 			children = (
 				CECDA2A12C5CDED8000584B2 /* Honey_PoteApp.swift */,
 				CECDA2A32C5CDED8000584B2 /* ContentView.swift */,
-				CECDA2B92C5CE8EB000584B2 /* TabBar */,
+				CE44B6532C63A1F5000418FB /* Model */,
+				CE44B6582C63A581000418FB /* View */,
+				CE44B6602C63A6B2000418FB /* Audio */,
+				CE44B65F2C63A696000418FB /* UI */,
 				CECDA2A52C5CDEDA000584B2 /* Assets.xcassets */,
 				CECDA2A72C5CDEDA000584B2 /* Honey_Pote.entitlements */,
 				CECDA2A82C5CDEDA000584B2 /* Preview Content */,
@@ -147,6 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE44B64E2C63829F000418FB /* MagicHintSound.mp3 in Resources */,
 				CECDA2AA2C5CDEDA000584B2 /* Preview Assets.xcassets in Resources */,
 				CECDA2A62C5CDEDA000584B2 /* Assets.xcassets in Resources */,
 			);
@@ -160,11 +217,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECDA2B82C5CE8D7000584B2 /* TabItemData.swift in Sources */,
+				CE44B6522C63A11B000418FB /* AnimatedIcon.swift in Sources */,
+				CE44B6502C63A0A6000418FB /* AudioManager.swift in Sources */,
+				CE44B65A2C63A5B5000418FB /* MapView.swift in Sources */,
 				CECDA2A42C5CDED8000584B2 /* ContentView.swift in Sources */,
 				CECDA2B22C5CE860000584B2 /* TabBottomView.swift in Sources */,
 				CECDA2A22C5CDED8000584B2 /* Honey_PoteApp.swift in Sources */,
+				CE44B6552C63A221000418FB /* Indication.swift in Sources */,
 				CECDA2B62C5CE8A9000584B2 /* TabItemView.swift in Sources */,
+				CE44B65C2C63A5FA000418FB /* SettingsView.swift in Sources */,
+				CE44B6572C63A578000418FB /* IndicationView.swift in Sources */,
 				CECDA2B42C5CE87B000584B2 /* CustomTabView.swift in Sources */,
+				CE44B65E2C63A63B000418FB /* RewardsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Honey-Pote/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -330,6 +395,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Honey-Pote/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
